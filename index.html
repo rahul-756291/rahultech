@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="icon" href="favicon_io/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/favicon_io/favicon-16x16.png" sizes="16x16" type="image/png">
+
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Rahul Ra.</h1>
+      <ul class="lists" id="navLinks">
+        <li><a href="#profile">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact-page">Contact Me</a></li>
+      </ul>
+      <div class="menu-icon" id="menuIcon">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <section id="profile">
+    <div class="img-cantainer">
+      <img src="/img/photo_2024-10-20_18-25-38.jpg" style="margin-top: 17px;">
+    </div>
+    <div class="text-cantainer">
+      <h1 class="tittle">Rahul Ranjan</h1>
+      <p class="p1">Font-End Web Devloper</p>
+      <div class="btns-cantainer">
+        <a id="downloadLink" href="/Resume/Rahul%20Ranjan.pdf" download>
+          <button class="btns btn-1">Download CV</button>
+        </a>
+        <a id="whatsappLink"
+          href="https://wa.me/917562918682?text=Hello%20Rahul!%20I'm%20interested%20in%20your%20services."
+          target="_blank">
+          <button class="btns btn-2">Hire Me</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="projects" id="projects">
+    <h1 class="tittle">Projects</h1>
+
+    <div class="project-cantainer">
+
+      <div class="project-cantainer-detail">
+        <div>
+          <img class="Project-img" src="/img/project.png">
+        </div>
+        <h2 class="title-2">Zomato</h2>
+        <button class="btn-project" onclick="showCustomMessage()">Live Link</button>
+      </div>
+
+      <div id="messageBox" class="message-box">
+        <p>This project is not available right now.</p>
+        <button onclick="closeMessage()">OK</button>
+      </div>
+
+      <div class="project-cantainer-detail">
+        <div>
+          <img class="Project-img" src="/img/project.png">
+        </div>
+        <h2 class="title-2">Myntra</h2>
+        <button class="btn-project" onclick="showCustomMessage()">Live Link</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-page">
+    <p class="p1">Get in Touch</p>
+    <h1 class="tittle">Contact Me</h1>
+    <div class="contact-box">
+      <div class="contact-info">
+        <i class="ri-mail-fill"></i>
+        <p><a href="mailto:rahulranjan802203agmail.com">Gmail-Contact</a>
+        </p>
+      </div>
+      <div class="contact-info">
+        <i class="ri-instagram-fill"></i>
+        <p><a href="https://www.instagram.com/rahul.__0.8/">Instagram</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
